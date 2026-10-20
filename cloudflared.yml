@@ -1,0 +1,7 @@
+tunnel: d176f92e-5569-473e-90cc-b4fc4cbf7808
+credentials-file: C:\Users\EmivalSantosSilva\.cloudflared\d176f92e-5569-473e-90cc-b4fc4cbf7808.json
+
+ingress:
+  - hostname: manifestacao.mvalabs.com.br
+    service: http://127.0.0.1:3333
+  - service: http_status:404

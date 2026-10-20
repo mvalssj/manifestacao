@@ -1,0 +1,17 @@
+{
+  "name": "domingo-na-paulista",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jogo multiplayer no navegador: uma manifestação na Avenida Paulista com salas privadas para jogar com amigos.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "ws": "8.18.0"
+  }
+}
